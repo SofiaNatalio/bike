@@ -19,8 +19,10 @@
     <!-- Base package to search for spring beans -->
     <context:component-scan base-package="org.academiadecodigo.hackathon"/>
 
-   <!-- <import resource="persistence.xml"/>
-    <import resource="presentation.xml"/> -->
+
+
+    <import resource="persistence.xml"/>
+
 
 
     <!-- Definition of conversion service to convert command Objects
